@@ -1,0 +1,26 @@
+.app-details-wrap {
+    margin-left: 20px;
+    width: 60%;
+}
+.details-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid;
+    max-width: 300px;
+}
+.details-body-img-main img {
+    max-width: 300px;
+}
+.details-body-name, 
+.details-body-city, 
+.details-body-company,
+.details-body-position {
+    border-bottom: 1px solid;
+    margin-bottom: 5px;
+    display: flex;
+    padding: 0 10px;
+}
+.details-body-position {
+    border-bottom: none;
+}

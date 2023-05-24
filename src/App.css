@@ -3,6 +3,7 @@
   flex-direction: row;
   max-width: 1024px;
   justify-content: center;
+  align-items: center;
 }
 .app-list-wrap {
   display: flex;

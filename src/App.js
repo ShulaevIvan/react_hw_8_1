@@ -1,10 +1,12 @@
 import List from "./components/list/List";
 import Details from "./components/details/Details";
+import './App.css';
+import './components/list/List.css';
+import './components/details/Details.css';
 import { Context }  from "./context";
 import { useState } from "react";
 import { useEffect } from "react";
-import './App.css';
-import './components/list/List.css';
+
 
 
 function App() {
