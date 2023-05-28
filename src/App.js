@@ -55,7 +55,7 @@ function App() {
             <List></List>
           </div>
         <div className="app-details-wrap">
-          {detailsState.show && detailsState.showId ?  <Details info={{ id: detailsState.showId, name: detailsState.showName }}></Details> : null}
+          {detailsState.show && detailsState.showId ?  <Details info={{ id: detailsState.showId, name: detailsState.showName}}></Details> : null}
         </div>
         </div>
       
